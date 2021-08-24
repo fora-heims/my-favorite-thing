@@ -11,17 +11,19 @@ img {
 body {
     background-color: #1c4232;
     color: #7a9b73;
-    font-family: 'Comic Sans MS';
+    font-family: 'Kaisei Decol', serif;
     line-height: 1.5;
     max-width: 626px;
 }
 
 h1, h2 {
     font-family: 'Copper-plate';
+    transition: all .2s ease-in-out;
 }
 
 h1:hover, h2:hover {
     color: #13cf71;
+    transform: scale(1.3) translate(100px)
 }
 
 a {
