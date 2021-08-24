@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    max-width: 626px;
+    border: 6px solid #5b358f;
+}
+
+body {
+    background-color: #1c4232;
+    color: #7a9b73;
+    font-family: 'Comic Sans MS';
+    line-height: 1.5;
+    max-width: 626px;
+}
+
+h1, h2 {
+    font-family: 'Copper-plate';
+}
+
+h1:hover, h2:hover {
+    color: #13cf71;
+}
+
+a {
+  color: #7a9b73;
+}
+
+a:hover {
+    color: #cf7713;
+}
+
+  a:after {
+      color: #5b358f
+  }
